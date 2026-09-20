@@ -43,7 +43,7 @@ int buscaTernariaRecursiva(int A[], int esq, int dir, int chave) {
     }
 }
 // Observacao: como o intervalo diminui para 1/3 do tamanho a cada chamada,
-// a profundidade maxima de recursao e O(log n) na base 3 -- entao, assim como
+// a profundidade maxima de recursao e O(log n) na base 3 entao, assim como
 // na busca binaria recursiva, nao ha risco de estouro de pilha aqui
 
 int main() {
