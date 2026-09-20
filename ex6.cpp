@@ -29,7 +29,7 @@ int buscaBinariaRecursiva(int A[], int esq, int dir, int chave) {
     }
 }
 // Observacao: como cada chamada reduz o intervalo pela metade, a profundidade
-// maxima de chamadas e O(log n) -- por isso nao ha risco de estouro de pilha
+// maxima de chamadas e O(log n) por isso nao ha risco de estouro de pilha
 // aqui, diferente do que acontece na busca linear recursiva (exercicio 2)
 
 int main() {
