@@ -2,10 +2,10 @@
 // Exercicio 1: Busca Linear Iterativa
 // Autor: Otávio Felipe
 
-#include <iostream>   // biblioteca de entrada/saida (cin para ler, cout para escrever)
-#include <vector>     // biblioteca do tipo vector (array dinamico)
-#include <chrono>     // biblioteca para medir tempo de execucao
-using namespace std;  // evita precisar escrever std:: antes de cin, cout, vector, etc.
+#include <iostream>   
+#include <vector>     
+#include <chrono>     
+using namespace std; 
 
 // Funcao que faz a busca linear.
 // Parametros: A (o vetor), esq e dir (limites do intervalo [esq, dir)), chave (o que procuramos)
